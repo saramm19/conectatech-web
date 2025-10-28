@@ -1,4 +1,4 @@
-import { Header, Hero, Features, MoreInformation, Testimonials, Form, Footer, } from "./components"
+import { Header, Hero, Features, MoreInformation, Resources, Form, Footer, } from "./components"
 
 function App() {
   
@@ -33,7 +33,7 @@ function App() {
         <Hero />
         <Features />
         <MoreInformation />
-        <Testimonials />   
+        <Resources />   
       </section>
 
       <section className="bg-Navy-950 p-6 relative">

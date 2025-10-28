@@ -2,20 +2,22 @@ import { Button } from "./button"
 
 export const Hero = () => {
   return (
-    <section className="-mt-20 relative z-10 max-w-[450px] mx-auto md:mt-40]">
+    <section className="-mt-20 relative z-10 max-w-[500px] mx-auto md:mt-20]">
 
-      <h1 className="text-center text-2xl font-Raleway font-bold px-2">
-        All your files in one secure location, accessible anywhere.
+      <h1 className="text-center text-3xl font-Raleway font-bold px-2">
+        Conectatech: Expertos en Transformación Digital del Estado
       </h1>
 
-      <p className="text-center text-sm mt-6 px-4">Fylo stores all your most important files in one secure location. 
-       Access them wherever you need, share and collaborate with friends family,
-       and co-workers.
+      <p className="text-center text-1xl mb-10 mt-6 px-6">
+        Acompañamos a las instituciones públicas en la implementación de la Ley 21.180
       </p>
 
-      <div className="text-center mt-6 mb-10">
-        <Button text="Get Started" styles="w-[240px]" />
+      <div className="flex  flex-col sm:flex-row justify-center gap-6 ">
+        <Button text="Contactanos" styles="w-[240px]" />
+        <Button text="Descargar Brochure" styles="w-[240px]" />
       </div>
+
+      
 
       
     </section>

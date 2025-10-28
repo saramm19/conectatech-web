@@ -5,13 +5,19 @@ export const Navbar = () => {
         <nav>
             <ul className="flex gap-6">
                 <li>
-                   <a className="hover:text-teal-200" href="#">Features</a>
+                   <a className="hover:text-teal-200" href="#">Inicio</a>
                 </li>
                 <li>
-                   <a className="hover:text-teal-200" href="">Team</a>
+                   <a className="hover:text-teal-200" href="">Ley 21.180</a>
                 </li>
                 <li>
-                   <a className="hover:text-teal-200" href="">Sign In</a>
+                   <a className="hover:text-teal-200" href="">Servicios</a>
+                </li>
+                 <li>
+                   <a className="hover:text-teal-200" href="">Recursos</a>
+                </li>
+                 <li>
+                   <a className="hover:text-teal-200" href="">Nosotros</a>
                 </li>
             </ul>
         </nav>
